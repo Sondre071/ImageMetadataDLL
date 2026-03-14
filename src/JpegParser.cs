@@ -1,6 +1,6 @@
-public static class Metadata
+public static class JpegParser
 {
-    public static FileData[] GetJPEGSize(
+    public static FileData[] GetJpegSize(
         string[] paths
     )
     {
