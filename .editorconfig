@@ -1,0 +1,8 @@
+[*.cs]
+
+# To avoid unnecessary namespace nesting when invoking methods from PowerShell.
+dotnet_diagnostic.IDE0130.severity = none
+dotnet_diagnostic.CA1050.severity = none
+
+# .ToArray() syntax is cuter than collection expression.
+dotnet_diagnostic.IDE0305.severity = none
